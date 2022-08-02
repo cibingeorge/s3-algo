@@ -12,12 +12,12 @@ repository = "https://github.com/openanalytics/s3-algo"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-futures = "0.3.17"
+futures = "0.3.21"
 futures-stopwatch = "0.3.0"
 futures-retry = "0.6.0"
-rusoto_s3 = "0.47.0"
-rusoto_core = "0.47.0"
-tokio = {version = "1.10", features = ["time", "fs", "macros", "io-util", "sync", "rt-multi-thread"]}
+rusoto_s3 = "0.48"
+rusoto_core = "0.48"
+tokio = {version = "1", features = ["time", "fs", "macros", "io-util", "sync", "rt-multi-thread"]}
 tokio-util = {version = "0.6.7", features = ["codec"]}
 bytes = "1.1.0"
 serde = {optional = true, version = "1.0", features = ["derive"]}
